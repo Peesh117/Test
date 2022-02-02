@@ -1,52 +1,72 @@
 body{
-    margin: 0;
+    background-color: black;
+    color: goldenrod;
+    margin-top: 0px;
     font-size: 20px;
     line-height: 30px;
 }
 header{
-    background-color: green;
+    background-color: black;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 30px double goldenrod;
+    border-top: 30px double goldenrod;
+    margin-top: 0px;
 }
 h1, h2{
     font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
 }
 header h1{
-    color: white;
     font-size: 50px;
-    line-height: 40px;
+    line-height: 50px;
 }
 header img{
     border-radius: 600px;
     width: 400px;
-    border: 10px solid white;
+    padding: 0;
+    border: 10px solid goldenrod;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+p{
+   text-indent: 20px; 
+   padding: 20px;
 }
 main{
+    background-color: black;
+    color: goldenrod;
     max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: 50px auto 20px;
 }
 main img{
     max-width: 100%;
+    margin-top: 50px;
 }
 h2{
     font-size: 30px;
-    color: green;
+    /*color: green;*/
 }
 a{
-    color: green;
+    color: goldenrod;
 }
 a:hover{
     color: white;
-    background-color: green;
+    background-color: goldenrod;
 }
 footer{
-    background-color: green;
+    background-color: goldenrod;
     color: white;
-    padding: 30px;
 }
 footer p{
     margin: 0;
+    margin-top: 15px;
     text-align: center;
+}
+.box{
+    margin: -50px;
+    background-color: goldenrod
 }
